@@ -61,10 +61,10 @@ En este proyecto aprenderás a construir una aplicación web que interactúe con
 - Comandos de git (add | commit | pull | status | push).
 - Manejo de repositorios de GitHub (clone | fork | gh-pages).Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
-### BUENAS PACTICAS
+### BUENAS PRÁCTICAS
 - Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
 
-## Parte Obligatoria
+## Consideraciones
 
 Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
@@ -108,9 +108,9 @@ La interfaz debe permitir al usuario:
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-## Parte opcional o “Hacker edition”
+## Funcionalidad extra o “Hacker edition”
 
-Las secciones llamadas “Hacker Edition” son opcionales. Si **terminaste** con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
+Las secciones llamadas “Hacker Edition” son opcionales. Si **alcanzaste los objetivos de aprendizaje** y te queda tiempo, intenta realizar el hacker edition. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
 La descripción general de este proyecto no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El boilerplate incluye algunos tests (comentados en principio) que puedes usar como punto de partida para implementar el soporte para estos casos.
 
@@ -224,9 +224,8 @@ Herramientas:
 - [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
 
 ## Checklist
-Esta sección está  para ayudarte a llevar un control de lo que vas completando.
+Esta sección está  para ayudarte a llevar un control de los objetivos de aprendizaje y las funcionalidades.
 
-### Parte Obligatoria
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
@@ -247,7 +246,7 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 * [ ] Interfaz permite escribir un texto para ser descifrado.
 * [ ] Interfaz muestra el resultado del descifrado correctamente.
 
-### Parte Opcional: "Hacker edition"
+## Funcionalidad extra o “Hacker edition”
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
